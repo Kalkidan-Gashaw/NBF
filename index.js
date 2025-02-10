@@ -64,7 +64,7 @@ app.post("/create-account", async (req, res) => {
         },
       });
       
-       const verificationLink = `https://fnp-skc6.onrender.com/verify/?token=${token}`;
+       const verificationLink = `https://f-np-jrev.vercel.app/verify/?token=${token}`;
      
        const mailOptions = {
          from: "gashawkalkidan700@gmail.com",
